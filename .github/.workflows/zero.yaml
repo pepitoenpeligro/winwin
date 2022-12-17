@@ -1,0 +1,12 @@
+name: "[winwin]"
+
+on:
+  push:
+
+
+jobs:
+  somejob:
+    runs-on: self-hosted
+
+     steps:
+      - uses: actions/checkout@v3
